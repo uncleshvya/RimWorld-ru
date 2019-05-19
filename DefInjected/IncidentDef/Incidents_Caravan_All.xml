@@ -6,12 +6,12 @@
   <!-- EN: Caravan ambushed -->
   <Ambush.letterLabel>Караван попал в засаду</Ambush.letterLabel>
   <!-- EN: {0} has been ambushed by {1} from {2}! -->
-  <Ambush.letterText>{0} поджидали в засаде {1} из фракции {2}!</Ambush.letterText>
+  <Ambush.letterText>{0} попал в засаду {1[2]} из фракции {2}!</Ambush.letterText>
   
   <!-- EN: payment demand -->
   <CaravanDemand.label>требование платы</CaravanDemand.label>
   <CaravanDemand.letterLabel>Караван попал в засаду</CaravanDemand.letterLabel>
-  <CaravanDemand.letterText>{0} поджидали {1} из фракции {2}! Они требуют платы за проход.</CaravanDemand.letterText>
+  <CaravanDemand.letterText>{0} попал в засаду {1[2]} из фракции {2}! Они требуют платы за проход.</CaravanDemand.letterText>
   
   <!-- EN: caravan meeting -->
   <CaravanMeeting.label>встреча караванов</CaravanMeeting.label>
