@@ -286,8 +286,8 @@
 
   <!-- Transporter contents -->
   <!-- EN: Remove {{0}}x {0} -->
-  <RemoveSliderText>Выгрузить {0} ({{0}} шт)</RemoveSliderText>
+  <RemoveSliderText>Выгрузить {0[4]} ({{0}} шт)</RemoveSliderText>
   <!-- EN: Do you really want to remove {0}? -->
-  <ConfirmRemoveItemDialog>Вы уверены, что хотите выгрузить {0}?</ConfirmRemoveItemDialog>
+  <ConfirmRemoveItemDialog>Вы уверены, что хотите выгрузить {0[4]}?</ConfirmRemoveItemDialog>
 
 </LanguageData>

@@ -218,7 +218,7 @@
   <!-- EN: Caravan demand by {0} -->
   <CaravanDemandTitle>Засада разбойников из фракции {0}</CaravanDemandTitle>
   <!-- EN: {0} has been ambushed by a group of {2} {4} from {1}. They will attack unless you give them:\n\n{3} -->
-  <CaravanDemand>{0} поджидали в засаде {4} из фракции {1}! Их ^Number( {2} | '# человек' | '# человека' | '# человек')^. Они вас атакуют, если вы не отдадите им:\n\n{3}</CaravanDemand>
+  <CaravanDemand>{0} попал в засаду {4[2]} из фракции {1}! Их ^Number( {2} | '# человек' | '# человека' | '# человек')^. Они вас атакуют, если вы не отдадите им:\n\n{3}</CaravanDemand>
   <!-- EN: Give and pass -->
   <CaravanDemand_Give>Отдать и продолжить путь</CaravanDemand_Give>
   <!-- EN: Refuse and fight -->

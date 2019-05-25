@@ -87,7 +87,7 @@
   <AncientShrineWarning>Когда {PAWN} проходит мимо древней стены, {PAWN_possessive} одолевает недоброе предчувствие. Непонятно как, но {PAWN_pronoun} ощущает внутри этой покрытой пылью постройки большую опасность.</AncientShrineWarning>
 
   <!-- EN: We have struck {0}! -->
-  <StruckMineable>Мы обнаружили {0}!</StruckMineable>
+  <StruckMineable>Мы обнаружили {0[4]}!</StruckMineable>
 
   <!-- EN: {0} revenge -->
   <LetterLabelAnimalManhunterRevenge>{0} мстит</LetterLabelAnimalManhunterRevenge>
@@ -230,15 +230,15 @@
 
   <!-- Newly addicted -->
   <!-- EN: {0} addiction -->
-  <LetterLabelNewlyAddicted>Зависимость ({0})</LetterLabelNewlyAddicted>
+  <LetterLabelNewlyAddicted>Зависимость от {0[2]}</LetterLabelNewlyAddicted>
   <!-- EN: {PAWN_labelShort} has developed an addiction to {1}.\n\n{PAWN_pronoun} now has a need for {1}, visible on {PAWN_possessive} Needs tab. {PAWN_pronoun} will automatically consume the drug to fulfil {PAWN_possessive} need. If {PAWN_pronoun} cannot get any {1}, {PAWN_pronoun} will go into withdrawal. -->
-  <LetterNewlyAddicted>У {PAWN_labelShort} развилась зависимость от вещества: {1}.\n\n{PAWN_possessive} потребность в этом веществе отображается во вкладке Нужды. {PAWN_labelShort} будет самостоятельно употреблять наркотик, чтобы удовлетворить свою потребность. Если {PAWN_pronoun} не сможет достать {1}, у н{PAWN_possessive} начнётся синдром отмены.</LetterNewlyAddicted>
+  <LetterNewlyAddicted>У {PAWN_labelShort} развилась зависимость от {1[2]}.\n\n{PAWN_possessive} потребность в этом веществе отображается во вкладке Нужды. {PAWN_labelShort} будет самостоятельно употреблять наркотик, чтобы удовлетворить свою потребность. Если {PAWN_pronoun} не сможет достать {1[4]}, у н{PAWN_possessive} начнётся синдром отмены.</LetterNewlyAddicted>
   
   <!-- Drug binge -->
   <!-- EN: {0} binge -->
-  <LetterLabelDrugBinge>Злоупотребление ({0})</LetterLabelDrugBinge>
+  <LetterLabelDrugBinge>Злоупотребление {0[5]}</LetterLabelDrugBinge>
   <!-- EN: {2_label} is binging on {1}. -->
-  <LetterDrugBinge>{2_label} злоупотребляет наркотиком: {1}.</LetterDrugBinge>
+  <LetterDrugBinge>{2_label} злоупотребляет {1[5]}.</LetterDrugBinge>
   
   <!-- Caravan destroyed -->
   <!-- EN: Caravan destroyed -->
@@ -248,21 +248,21 @@
   
   <!-- Caravan entered map -->
   <!-- EN: Caravan arrived at {0_label} -->
-  <LetterLabelCaravanEnteredMap>Караван прибыл к {0_label}</LetterLabelCaravanEnteredMap>
+  <LetterLabelCaravanEnteredMap>Караван прибыл к {0_label[3]}</LetterLabelCaravanEnteredMap>
   <!-- EN: {0} has arrived at {1_definite}. -->
-  <LetterCaravanEnteredMap>{0} прибыл к месту назначения: {1_definite}.</LetterCaravanEnteredMap>
+  <LetterCaravanEnteredMap>{0} прибыл к {1_definite[3]}.</LetterCaravanEnteredMap>
   
   <!-- Caravan entered enemy base -->
   <!-- EN: Attack begun -->
   <LetterLabelCaravanEnteredEnemyBase>Атака началась</LetterLabelCaravanEnteredEnemyBase>
   <!-- EN: {0} has arrived at {1} and is ready to begin the attack. -->
-  <LetterCaravanEnteredEnemyBase>{0} прибыл в {1} и готов к атаке.</LetterCaravanEnteredEnemyBase>
+  <LetterCaravanEnteredEnemyBase>{0} прибыл в {1[4]} и готов к атаке.</LetterCaravanEnteredEnemyBase>
 
   <!-- Transport pods landed in enemy base -->
   <!-- EN: Attack begun -->
   <LetterLabelTransportPodsLandedInEnemyBase>Атака началась</LetterLabelTransportPodsLandedInEnemyBase>
   <!-- EN: Your transport pods have arrived at {0}. -->
-  <LetterTransportPodsLandedInEnemyBase>Ваши транспортные капсулы прибыли в {0}.</LetterTransportPodsLandedInEnemyBase>
+  <LetterTransportPodsLandedInEnemyBase>Ваши транспортные капсулы прибыли в {0[4]}.</LetterTransportPodsLandedInEnemyBase>
   
   <!-- Faction base defeated -->
   <!-- EN: Base destroyed -->
@@ -282,7 +282,7 @@
   <!-- EN: Precious minerals found -->
   <LetterLabelFoundPreciousLump>Найдены драгоценные минералы</LetterLabelFoundPreciousLump>
   <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} nearby.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
-  <LetterFoundPreciousLump>При помощи сканера дальнего действия {WORKER_labelShort} обнаруживает неподалёку {0}.\n\nК сожалению, этот ценный ресурс вряд ли надолго останется нетронутым: через ^Number( {1} | '# день' | '# дня' | '# дней')^ его наверняка выкопают другие.\n\n{2}.</LetterFoundPreciousLump>
+  <LetterFoundPreciousLump>При помощи сканера дальнего действия {WORKER_labelShort} обнаруживает неподалёку {0[4]}.\n\nК сожалению, этот ценный ресурс вряд ли надолго останется нетронутым: через ^Number( {1} | '# день' | '# дня' | '# дней')^ его наверняка выкопают другие.\n\n{2}.</LetterFoundPreciousLump>
   
   <!-- Ambush -->
   <!-- EN: Ambush -->
@@ -330,7 +330,7 @@
   <!-- EN: Legendary Work -->
   <LetterCraftedLegendaryLabel>Легендарное Творение</LetterCraftedLegendaryLabel>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\nNews of this valuable artifact will spread across the world. -->
-  <LetterCraftedLegendaryMessage>{WORKER_labelShort}, {WORKER_gender ? создал : создала} {CRAFTED_labelShort} легендарного качества.\n\nВесть об артефакте такой ценности скоро охватит весь мир.</LetterCraftedLegendaryMessage>
+  <LetterCraftedLegendaryMessage>{WORKER_labelShort}, {WORKER_gender ? создал : создала} {CRAFTED_labelShort[4]} легендарного качества.\n\nВесть об артефакте такой ценности скоро охватит весь мир.</LetterCraftedLegendaryMessage>
 
   <!-- Pawns lost because map closed -->
   <!-- EN: Caravan lost -->
@@ -376,13 +376,13 @@
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
-  <LetterLabelPredatorHuntingColonist>{PREDATOR_labelShort} охотится на {PREY_definite}</LetterLabelPredatorHuntingColonist>
+  <LetterLabelPredatorHuntingColonist>{PREDATOR_labelShort} охотится на {PREY_definite[4]}</LetterLabelPredatorHuntingColonist>
   <!-- EN: {PREDATOR} is hunting {PREY_definite} for food! -->
-  <LetterPredatorHuntingColonist>{PREDATOR} охотится на {PREY_definite} ради пропитания.</LetterPredatorHuntingColonist>
+  <LetterPredatorHuntingColonist>{PREDATOR} собирается съесть {PREY_definite[4]}.</LetterPredatorHuntingColonist>
 
   <!-- Disease -->
   <!-- EN: {0} blocked {1} on: {2}. -->
-  <LetterDisease_Blocked>У этих людей {0} блокирует развитие болезни: {2}.</LetterDisease_Blocked>
+  <LetterDisease_Blocked>У этих людей {0} блокирует {1[4]}: {2}.</LetterDisease_Blocked>
   <!-- EN: Disease ({0}) -->
   <LetterLabelTraitDisease>Болезнь ({0})</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->

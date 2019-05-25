@@ -201,13 +201,13 @@
   <!-- EN: {0} effect multiplier: {1} -->
   <DrugEffectMultiplier>множитель эффекта от {0}: {1}</DrugEffectMultiplier>
   <!-- EN: Visiting {0}. -->
-  <CaravanVisiting>Посещает {0}.</CaravanVisiting>
+  <CaravanVisiting>Посещает {0[4]}.</CaravanVisiting>
   <!-- EN: Entering {0}. -->
-  <CaravanEntering>Идёт к {0}.</CaravanEntering>
+  <CaravanEntering>Идёт к {0[3]}.</CaravanEntering>
   <!-- EN: Attacking {0}. -->
-  <CaravanAttacking>Нападает на {0}.</CaravanAttacking>
+  <CaravanAttacking>Нападает на {0[4]}.</CaravanAttacking>
   <!-- EN: Offering gifts to {0}. -->
-  <CaravanOfferingGifts>Предлагает подарок {0}.</CaravanOfferingGifts>
+  <CaravanOfferingGifts>Предлагает подарок {0[3]}.</CaravanOfferingGifts>
   <!-- EN: Tainted from being worn by a corpse. -->
   <WasWornByCorpse>Снято с трупа.</WasWornByCorpse>
   <!-- EN: T -->
@@ -343,7 +343,7 @@
   <!-- EN: there may be danger there -->
   <HiddenOrNoSitePartDescription>там может быть опасно</HiddenOrNoSitePartDescription>
   <!-- EN: lump of {0} -->
-  <PreciousLumpLabel>залежи ресурса: {0}</PreciousLumpLabel>
+  <PreciousLumpLabel>залежи {0[2]}</PreciousLumpLabel>
   <!-- EN: no active research project -->
   <NoActiveResearchProjectToFinish>не выбрана технология для исследования</NoActiveResearchProjectToFinish>
   <!-- EN: turret -->
@@ -465,9 +465,9 @@
 
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
-  <ReportHaulingTo>несёт {THING_label} на {DESTINATION}</ReportHaulingTo>
+  <ReportHaulingTo>несёт {THING_label[4]} на {DESTINATION}</ReportHaulingTo>
   <!-- EN: hauling {1_label}. -->
-  <ReportHauling>несёт {1_label}</ReportHauling>
+  <ReportHauling>несёт {1_label[4]}</ReportHauling>
   <!-- EN: hauling. -->
   <ReportHaulingUnknown>несёт груз</ReportHaulingUnknown>
   <!-- EN: sleeping. -->
@@ -497,7 +497,7 @@
   <!-- EN: extinguishing fire. -->
   <ReportExtinguishingFire>тушит пожар</ReportExtinguishingFire>
   <!-- EN: extinguishing fire on {TARGET_label}. -->
-  <ReportExtinguishingFireOn>сбивает огонь с {TARGET_labelShort}</ReportExtinguishingFireOn>
+  <ReportExtinguishingFireOn>сбивает огонь с {TARGET_labelShort[2]}</ReportExtinguishingFireOn>
   <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>выкапывает труп</ReportDiggingUpCorpse>
 
@@ -535,13 +535,13 @@
 
   <!-- Generated recipes -->
   <!-- EN: make {0} -->
-  <RecipeMake>сделать {0}</RecipeMake>
+  <RecipeMake>сделать {0[4]}</RecipeMake>
   <!-- EN: Making {0}. -->
-  <RecipeMakeJobString>Делает {0}</RecipeMakeJobString>
+  <RecipeMakeJobString>Делает {0[4]}</RecipeMakeJobString>
   <!-- EN: administer {0} -->
   <RecipeAdminister>назначить {0}</RecipeAdminister>
   <!-- EN: Administering {0}. -->
-  <RecipeAdministerJobString>Принимает {0}</RecipeAdministerJobString>
+  <RecipeAdministerJobString>Принимает {0[4]}</RecipeAdministerJobString>
   <!-- EN: teetotaler will be unhappy -->
   <TeetotalerUnhappy>трезвенник будет недоволен</TeetotalerUnhappy>
   <!-- EN: body purist will be unhappy -->
@@ -771,7 +771,7 @@
 
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
-  <FireOn>огонь на {1_label}</FireOn>
+  <FireOn>огонь на {1_label[5]}</FireOn>
   <!-- EN: Burning -->
   <Burning>Горит</Burning>
   <!-- EN: fire size {0} -->
@@ -981,7 +981,7 @@
   <!-- EN: No resources below. -->
   <DeepDrillNoResources>Месторождение выработано.</DeepDrillNoResources>
   <!-- EN: Deep drill resources exhausted, drill automatically forbidden. Unforbid to begin mining of {0}. -->
-  <DeepDrillExhausted>Глубинное месторождение выработано. Теперь там можно добывать только {0}. Для продолжения добычи заново разрешите использование установки.</DeepDrillExhausted>
+  <DeepDrillExhausted>Глубинное месторождение выработано. Теперь там можно добывать только {0[4]}. Для продолжения добычи заново разрешите использование установки.</DeepDrillExhausted>
   <!-- EN: Deep drill resources exhausted. -->
   <DeepDrillExhaustedNoFallback>Ресурсы полностью истощены.</DeepDrillExhaustedNoFallback>
 
