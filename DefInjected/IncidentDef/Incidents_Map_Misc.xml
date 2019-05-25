@@ -50,7 +50,7 @@
   <!-- EN: Meteorite -->
   <MeteoriteImpact.letterLabel>Метеорит</MeteoriteImpact.letterLabel>
   <!-- EN: A large meteorite has struck ground in the area. It has left behind a lump of {0}. -->
-  <MeteoriteImpact.letterText>Крупный метеорит упал неподалёку. В месте падения можно найти {0}.</MeteoriteImpact.letterText>
+  <MeteoriteImpact.letterText>Крупный метеорит упал неподалёку. В месте падения можно найти {0[4]}.</MeteoriteImpact.letterText>
   
   <!-- EN: psychic drone -->
   <PsychicDrone.label>гул</PsychicDrone.label>

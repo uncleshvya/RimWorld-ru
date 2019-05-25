@@ -8,6 +8,6 @@
   <!-- EN: There are manhunting animals in this area. -->
   <Manhunters.arrivedLetter>В этом месте бродит стая аргессивных животных.</Manhunters.arrivedLetter>
   <!-- EN: there is a group of {0} manhunting {1} wandering nearby -->
-  <Manhunters.descriptionDialogue>рядом бродят агрессивные {1} в количестве {0} штук</Manhunters.descriptionDialogue>
+  <Manhunters.descriptionDialogue>рядом ^Number( {0} | 'бродит # {1_gender ? агрессивный : агрессивная} {1}' | 'бродят # агрессивных {1[2]}' | 'бродят # агрессивных {1[4]}')^</Manhunters.descriptionDialogue>
   
 </LanguageData>
